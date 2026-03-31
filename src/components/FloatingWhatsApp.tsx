@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const WHATSAPP_URL =
   "https://wa.me/918639813518?text=Hi%2C%20I%27d%20like%20to%20book%20Saaz%20Farmhouse";
-const MAPS_URL = "https://share.google/Bzc7Xz103VnQdEJiK";
+const MAPS_URL = "https://maps.app.goo.gl/XwSj6qmaJp3PhCzg6";
 
 export default function FloatingWhatsApp() {
   const [visible, setVisible] = useState(false);
@@ -27,12 +27,10 @@ export default function FloatingWhatsApp() {
         href={MAPS_URL}
         target="_blank"
         rel="noopener noreferrer"
-        className={`${baseClass} bottom-24 bg-[#4285F4]`}
+        className={`${baseClass} bottom-24 bg-white`}
         aria-label="View on Google Maps"
       >
-        <svg viewBox="0 0 24 24" className="w-7 h-7 fill-white">
-          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z" />
-        </svg>
+        <img src="/icons/google-maps.svg" alt="Google Maps" className="w-7 h-7" />
       </a>
       <a
         href={WHATSAPP_URL}

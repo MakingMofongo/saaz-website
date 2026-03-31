@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Phone, Instagram, MapPin } from "lucide-react";
+import { Phone, Instagram } from "lucide-react";
 
 const WHATSAPP_URL =
   "https://wa.me/918639813518?text=Hi%2C%20I%27d%20like%20to%20book%20Saaz%20Farmhouse";
@@ -44,12 +44,12 @@ export default function Footer() {
               Book on Booking.com
             </a>
             <a
-              href="https://share.google/Bzc7Xz103VnQdEJiK"
+              href="https://maps.app.goo.gl/XwSj6qmaJp3PhCzg6"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-[#4285F4] hover:bg-[#3367D6] text-white text-[13px] tracking-[0.15em] uppercase px-10 py-4 transition-all duration-300"
             >
-              <MapPin size={18} strokeWidth={1.5} />
+              <img src="/icons/google-maps.svg" alt="" className="w-5 h-5" />
               View on Maps
             </a>
           </div>
@@ -120,12 +120,12 @@ export default function Footer() {
                 Booking.com
               </a>
               <a
-                href="https://share.google/Bzc7Xz103VnQdEJiK"
+                href="https://maps.app.goo.gl/XwSj6qmaJp3PhCzg6"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-white/70 hover:text-white text-[14px] transition-colors"
               >
-                <MapPin size={16} strokeWidth={1.5} />
+                <img src="/icons/google-maps.svg" alt="" className="w-4 h-4" />
                 Google Maps
               </a>
             </div>
