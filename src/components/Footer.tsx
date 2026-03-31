@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Phone, Instagram } from "lucide-react";
 
 const WHATSAPP_URL =
@@ -118,9 +119,15 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Saaz Farmhouse. Strictly families only &mdash; no
             bachelors, no alcohol, no smoking.
           </p>
-          <p className="text-white/20 text-[11px] font-light">
-            Moinabad, Telangana
-          </p>
+          <div className="flex items-center gap-4 text-[11px] font-light">
+            <Link
+              href="/privacy"
+              className="text-white/30 hover:text-white/60 transition-colors"
+            >
+              Privacy Policy
+            </Link>
+            <span className="text-white/20">Moinabad, Telangana</span>
+          </div>
         </div>
       </div>
     </footer>
