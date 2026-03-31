@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Phone, Instagram } from "lucide-react";
+import { Phone, Instagram, MapPin } from "lucide-react";
 
 const WHATSAPP_URL =
   "https://wa.me/918639813518?text=Hi%2C%20I%27d%20like%20to%20book%20Saaz%20Farmhouse";
@@ -42,6 +42,15 @@ export default function Footer() {
             >
               <img src="/icons/booking.svg" alt="" className="w-5 h-5 brightness-0 invert" />
               Book on Booking.com
+            </a>
+            <a
+              href="https://share.google/Bzc7Xz103VnQdEJiK"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-[#4285F4] hover:bg-[#3367D6] text-white text-[13px] tracking-[0.15em] uppercase px-10 py-4 transition-all duration-300"
+            >
+              <MapPin size={18} strokeWidth={1.5} />
+              View on Maps
             </a>
           </div>
         </div>
@@ -109,6 +118,15 @@ export default function Footer() {
                   <path d="M2.27 0C1.02 0 0 1.02 0 2.27v19.46C0 22.98 1.02 24 2.27 24h19.46C22.98 24 24 22.98 24 21.73V2.27C24 1.02 22.98 0 21.73 0H2.27zm8.05 5.09h3.49c2.58 0 4.33 1.2 4.33 3.49 0 1.44-.78 2.54-2.04 3.1v.06c1.56.42 2.58 1.68 2.58 3.34 0 2.64-2.1 3.94-4.75 3.94h-3.6V5.09zm2.52 5.69h.96c1.2 0 1.86-.54 1.86-1.56 0-.96-.66-1.5-1.86-1.5h-.96v3.06zm0 5.93h1.08c1.38 0 2.1-.6 2.1-1.68s-.72-1.62-2.1-1.62h-1.08v3.3z" />
                 </svg>
                 Booking.com
+              </a>
+              <a
+                href="https://share.google/Bzc7Xz103VnQdEJiK"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-white/70 hover:text-white text-[14px] transition-colors"
+              >
+                <MapPin size={16} strokeWidth={1.5} />
+                Google Maps
               </a>
             </div>
           </div>

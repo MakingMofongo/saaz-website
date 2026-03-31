@@ -59,6 +59,12 @@ export default function Hero() {
             <img src="/icons/booking.svg" alt="" className="w-4 h-4 brightness-0 invert" />
             Book on Booking.com
           </a>
+          <a
+            href="#gallery"
+            className="inline-flex items-center justify-center gap-2 border border-white/50 hover:bg-white/10 text-white text-[13px] tracking-[0.15em] uppercase px-8 py-4 transition-all duration-300"
+          >
+            View Gallery
+          </a>
         </div>
       </div>
 
